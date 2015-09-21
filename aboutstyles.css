@@ -20,7 +20,7 @@ h2,h3{
 /*body*/
 /*************************/
 *body {
-	width: 760px;
+	width: 960px;
 	margin: 10px auto;
 	font-size: 20px;
 	text-align: justify;
@@ -34,8 +34,8 @@ h2,h3{
 	padding: 14px;	
 }*/
 #info{
-	background-color: pink;
-	text-align:justify;
+	background-color: gray;
+	text-align: justify;
 	margin: 10px;
 	padding: 40px;
 	/*font-size: 250%;*/
@@ -61,13 +61,46 @@ img{
 	padding: 10px;
 
 }
-li{
+ul.list {
+	padding: 0px;
+	list-style: none;
+	text-align:  center;
+}
+
+
+ul.list li {
+		display: inline;
+		padding: 10px;
+		margin: 5px;
+		/*background-color: yellow;*/
+		/*border-style: ;*/
+		border-right: 2px;
+		border-radius: 50px
+		
+}
+
+ul.list li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: grey;
+	font-family: "Courier New", Courier, monospace;
+background: #FFFF99;
+		border-top-left-radius: 20px;
+		border-bottom-right-radius: 20px
+}
+
+
+ul.list a:hover {
+				background-color: grey;
+				color: black;
+				}
+/*li{
 	display: inline;
 	font-size: 30px;
 	background: #FFFF99;
 	border-top-left-radius: 20px;
 	border-bottom-right-radius: 20px;
-}
+}*/
 footer{
 	height: 25px;
 	background-color: black;
@@ -76,4 +109,4 @@ footer{
 	padding: 5px;
 	clear: both;
 }
-	f
+	
