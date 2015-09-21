@@ -1,0 +1,79 @@
+
+/*************************/
+/*backround color, layout*/
+/*************************/
+#wrapper{
+	/*width: 960px;
+	margin: 0px auto;*/
+	background-color: #D9D9D9;
+	display: center;
+	padding: 10px;
+}
+/*************************/
+/*headers*/
+/*************************/
+h2,h3{ 
+	font-size: 30px;
+	text-align: center;
+}
+/*************************/
+/*body*/
+/*************************/
+*body {
+	width: 760px;
+	margin: 10px auto;
+	font-size: 20px;
+	text-align: justify;
+	background-color: #D9D9D9;
+	padding:20px;
+}
+/*#about{
+	width:450px;
+	margin:0px auto;
+	float:center;
+	padding: 14px;	
+}*/
+#info{
+	background-color: pink;
+	text-align:justify;
+	margin: 10px;
+	padding: 40px;
+	/*font-size: 250%;*/
+}
+header{
+	height: 30;
+	background: black;
+	color: red;
+	text-align: center; 
+	font-family: "Lucida Console", Monaco, monospace;
+	font-style: oblique;
+	padding: 5px;
+}
+img{
+}
+#nav{
+	line-height: 50px;
+	height: 350px;
+	width:100px;
+	background-color: black;
+	color: white;
+	float: left;
+	padding: 10px;
+
+}
+li{
+	display: inline;
+	font-size: 30px;
+	background: #FFFF99;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+footer{
+	height: 25px;
+	background-color: black;
+	color: red;
+	text-align: center;
+	padding: 5px;
+	clear: both;
+}
+	f
