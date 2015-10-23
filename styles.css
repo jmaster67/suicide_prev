@@ -9,11 +9,13 @@
 
 	text-align: center;
 	background-color: grey;
-	font-size: 25px;
-	color: white;
+	font-size: 30px;
+	color: aqua;
 	height: 30px;
 	padding: 20px;
 	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	font-variant: small-caps;
 }
 
 
@@ -78,12 +80,22 @@ img.medium {
 	width: 250px;
 	height: 250px;
 }
-
-#footer {
+footer{
+	height: 25px;
+	background-color: black;
+	color: aqua;
+	text-align: center;
+	font-variant: small-caps;
+	padding: 5px;
+	clear: both;
+}
+/*#footer {
 
 	position: absolute;
 	background-color: grey;
+	font-variant: small-caps;
+	font-weight: bold;
 	bottom: 0;
 	height: 20px;
-	width: 100%
-}
+	width: 100%;
+}*/

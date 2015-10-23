@@ -9,7 +9,7 @@
 	text-align: center;
 	background-color: #F0F0F5;
 	font-size: 74px;
-	color: white;
+	color: aqua;
 	height: 30px;
 	padding: 20px;
 	font-family: "Courier New", Courier, monospace;
@@ -28,7 +28,7 @@ body {
 	 overflow: hidden;
 	 position: relative;
 	 background: grey;
-	 color: white;
+	 color: #FFFF99;
 	 border: 1px solid black;
 	 font-size: 50px
 }
@@ -69,7 +69,15 @@ body {
 	 transform: translateX(-50%); 
  }
 
-
+p footer{
+	height: 25px;
+	background-color: black;
+	color: aqua;
+	text-align: center;
+	font-variant: small-caps;
+	padding: 5px;
+	clear: both;
+}
 /*#footer {*/
 
 	position: absolute;
